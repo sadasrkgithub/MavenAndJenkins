@@ -1,5 +1,6 @@
 package demo;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
 
@@ -12,7 +13,7 @@ public class Sample
 	    ChromeDriver driver = new ChromeDriver();
 		driver.get("https://www.whatsapp.com");
 		driver.manage().window().maximize();
-		
+		driver.findElement(By.id("srk")).clear();
 		System.out.println("=======================================");
 	    System.out.println("Demo pack sample class 1");	
 	    System.out.println("=======================================");

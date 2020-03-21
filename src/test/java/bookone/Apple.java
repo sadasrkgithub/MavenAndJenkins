@@ -13,6 +13,11 @@ public class Apple
 	     ChromeDriver driver = new ChromeDriver();
 		 driver.get("https://www.apple.com");
 		 driver.manage().window().maximize();
+		 
+		 
+		 System.out.println("=======================================");
+		 System.out.println("In test pack and apple class");
+		 System.out.println("=======================================");
 	   }
 	
 	

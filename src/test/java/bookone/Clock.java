@@ -14,9 +14,9 @@ public class Clock
 		driver.get("https://www.google.com");
 		driver.manage().window().maximize();
 		
-	   /*System.out.println("=======================================");
+	   System.out.println("=======================================");
 	   System.out.println("In test pack and clock class");
-	   System.out.println("=======================================");*/
+	   System.out.println("=======================================");
 	    
 	}
 

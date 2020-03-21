@@ -12,10 +12,10 @@ public class Sample
 	    ChromeDriver driver = new ChromeDriver();
 		driver.get("https://www.whatsapp.com");
 		driver.manage().window().maximize();
-		/*
+		
 		System.out.println("=======================================");
 	    System.out.println("Demo pack sample class 1");	
 	    System.out.println("=======================================");
-	    */
+	    
 	}
 }

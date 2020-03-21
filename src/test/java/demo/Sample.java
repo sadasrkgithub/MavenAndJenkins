@@ -13,7 +13,8 @@ public class Sample
 	    ChromeDriver driver = new ChromeDriver();
 		driver.get("https://www.whatsapp.com");
 		driver.manage().window().maximize();
-		driver.findElement(By.id("srk")).clear();
+		
+		//driver.findElement(By.id("srk")).clear();
 		System.out.println("=======================================");
 	    System.out.println("Demo pack sample class 1");	
 	    System.out.println("=======================================");
